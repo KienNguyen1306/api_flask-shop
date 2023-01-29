@@ -15,7 +15,6 @@ app.config['SIZE_PRODUCT']=100
 # initialize the app with the extension
 db = SQLAlchemy(app)
 
-
 mail = Mail(app)
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT']=465
